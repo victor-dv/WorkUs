@@ -1,0 +1,57 @@
+.sessao-03 {
+  background: #DA5F17;
+  max-width: 100%;
+}
+
+.sessao-03Container {
+  max-width: 1220px;
+  padding: 40px 20px;
+}
+
+.servicos-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 30px;
+  width: 1000px;
+  margin-left: 140px;
+}
+
+.servicos {
+  flex: 1;
+  background: #fcfcfc;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction:column;
+  width: 1px;
+  text-align: center;
+}
+.servicos img{
+  width: 130px;
+  margin-left: 15%;
+}
+.escrita-servicos{
+  margin-left: 10px;
+}
+.servicos-tipo{
+
+  line-height: 1.33;
+  max-width: 40ch;
+}
+.servico-tipo::before{
+  content: "";
+  border-radius: 5px;
+  display: block;
+  position: absolute;
+  background:url(../Img/detalhe-servico.svg) no-repeat center;
+  height: 5px;
+  width: 200px;
+  margin-top: 60px;
+  
+}
+.servicos-mkt{
+  font-size: 17px;
+  opacity: 0.8;
+  margin-top: 60px;
+}

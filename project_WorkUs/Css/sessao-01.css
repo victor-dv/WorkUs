@@ -1,0 +1,33 @@
+.sessao-01 .armazenar {
+    display: flex;
+    max-width: 1200px;
+    margin-top: 40px;
+    padding: 40px 20px;
+    align-items: center;
+}
+
+.sessao-01 h2 {
+    color: #DA5F17;
+    line-height: 1.700rem;
+    margin-left: 70px;
+}
+
+.sessao-01 h2::before {
+    content: "";
+    border-radius: 5px;
+    display: block;
+    width: 130px;
+    height: 100px;
+    position: absolute;
+    background: url('../Img/detalhe.svg');
+    height: 5px;
+    width: 70px;
+    margin-top: 60px;
+
+}
+
+.sessao-01 p {
+    margin-top: 50px;
+    margin-left: 70px;
+    line-height: 1.3rem;
+}

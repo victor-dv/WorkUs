@@ -1,0 +1,20 @@
+header{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    max-width: 1220px;
+}
+
+.menu-header ul{
+    display: flex;
+    gap: 50px;
+    margin-left: 550px;
+}
+
+.menu-header li{
+    list-style: none;
+}
+.menu-header a{
+    text-decoration: none;
+    color: #000;
+}

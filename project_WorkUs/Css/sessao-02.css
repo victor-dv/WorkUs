@@ -1,0 +1,47 @@
+.sessao-02{
+    max-width: 1200px;
+}
+.sessao-02 .armazenar{
+    display: flex;
+    margin-top: 70px;
+    padding: 40px 0px;
+    gap: 20px;
+}
+.sessao-02 .escrita-meio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sessao-02 h2{
+    color: #DA5F17;
+}
+.sessao-02 h2::before {
+    content: "";
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    background: url('../Img/detalhe.svg');
+    height: 5px;
+    width: 70px;
+    margin-top: 40px;
+    margin-left: 70px;
+    
+
+}
+.sessao-02 p{
+    margin-top: 60px;
+    margin-left: 20px;
+    line-height: 1.5rem;    
+    color: #050505;
+}
+
+.sessao-02 button{
+    margin-top: 90px;
+    border-radius: 7px;
+    background-color: #DA5F17;
+    height: 50px;
+    width: 300px;
+    border-color: aliceblue;
+    color: #FFFFFF;
+}
+

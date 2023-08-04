@@ -1,0 +1,35 @@
+.sessao-04{
+    display: flex;
+    max-width: 1200px;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.sessao-04 .comentarios{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.sessao-04 h2{
+    font-size: 30px;
+    color: #DA5F17;
+}
+
+ .armazenar-comentarios{
+    display: flex;
+    border: 2px solid #DA5F17;
+    margin-top: 50px;
+    gap: 20px;
+    height: 80px;
+    padding: 14px;
+  }
+
+
+.armazenar-comentarios h5{
+    font-size: 20px;
+    color: #DA5F17;
+}
+.armazenar-comentarios p{
+    margin-top: 20px;
+    line-height: 1.2rem;
+    
+}
